@@ -1,0 +1,17 @@
+.toast-container {
+  background-color: rgb(24, 144, 223);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  
+  margin-right: 20px;
+}
+.toast{
+  display: none;
+}
+.show-toast {
+  display: block;
+}

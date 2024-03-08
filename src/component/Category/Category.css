@@ -1,0 +1,28 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.btn-category {
+  all: unset;
+  padding: 10px 15px;
+  border: 1px solid rgb(46, 100, 194);
+  border-radius: 6px;
+  color: black;
+  margin: 10px;
+  font-weight: 550;
+  font-size: 15px;
+}
+.active {
+  background-color: rgb(46, 100, 194);
+  color: #fff;
+}
+
+.btn-category:hover {
+  transition: all 0.3s;
+  background-color: rgb(46, 100, 194);
+  color: #fff;
+}

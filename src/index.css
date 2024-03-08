@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Vazirmatn:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+  .sidebar-container {
+    max-width: 280px;
+  }
+  .totle-price {
+    max-width: 280px;
+    font-size: 14px;
+  }
+}

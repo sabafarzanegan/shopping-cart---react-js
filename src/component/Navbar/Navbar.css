@@ -1,0 +1,28 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   background-color: #fff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.shopping-card {
+  font-size: 25px;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo-icon {
+  font-size: 20px;
+}
